@@ -11,6 +11,7 @@ LABEL com.github.actions.color="orange"
 
 RUN apk update && apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community \
     composer && \
+    git && \
     rm -rf /var/cache/apk/* && \
     set -xe && \
         composer global require hirak/prestissimo && \
