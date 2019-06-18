@@ -1,4 +1,4 @@
-FROM php:7.2-cli-alpine
+FROM phpearth/php:7.2
 
 LABEL repository="https://github.com/bvelastegui/phalcon-composer-action"
 LABEL homepage="https://github.com/bvelastegui/phalcon-composer-action"
