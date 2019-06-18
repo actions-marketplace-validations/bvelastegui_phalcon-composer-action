@@ -1,29 +1,23 @@
-# Composer Action
+# Phalcon Composer Action
 
-[![GitHub Release][ico-release]][link-github-release]
-[![License][ico-license]](LICENSE)
-
-GitHub Actions for [Composer](https://getcomposer.org). Base on Docker official [Composer](https://hub.docker.com/_/composer) image, and installed [hirak/prestissimo](https://github.com/hirak/prestissimo) package.
+GitHub Actions for [Composer](https://getcomposer.org) in [Phalcon]() projects. Base on Docker official [PHP](https://hub.docker.com/_/php) image, and installed [hirak/prestissimo](https://github.com/hirak/prestissimo) package.
 
 ## Usage
 
 Via GitHub Workflow
 
 ```
-action "Composer Install" {
-  uses = "MilesChou/composer-action@master"
+action "Phalcon Composer Install" {
+  uses = "bvelastegui/phalcon-composer-action@master"
   args = "install"
 }
 ```
 
 ## Credits
 
-* [MilesChou](https://github.com/MilesChou)
+* [MilesChou](https://github.com/MilesChou) _(original repository)_
+* [Bryan Velastegui](https://github.com/bvelastegui)
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
-
-[ico-release]: https://img.shields.io/github/tag/MilesChou/composer-action.svg
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg
-[link-github-release]: https://github.com/MilesChou/composer-action/releases
