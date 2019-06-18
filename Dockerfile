@@ -9,7 +9,7 @@ LABEL com.github.actions.description="Do Composer commands in your actions."
 LABEL com.github.actions.icon="package"
 LABEL com.github.actions.color="orange"
 
-COPY --FROM=composer /usr/bin/composer /usr/bin/composer
+COPY --from=composer /usr/bin/composer /usr/bin/composer
 
 ENV LD_PRELOAD /usr/lib/preloadable_libiconv.so
 
