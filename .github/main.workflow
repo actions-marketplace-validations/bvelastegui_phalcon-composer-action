@@ -25,5 +25,5 @@ action "Send Discord message" {
     "WEBHOOK_ID",
     "WEBHOOK_TOKEN",
   ]
-  args = "A new commit has been push to `MilesChou/composer-action`."
+  args = "A new commit has been push to `bvelastegui/phalcon-composer-action`."
 }
